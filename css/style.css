@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #00B98E;
+    --primary: #586544;
     --secondary: #FF6922;
-    --light: #EFFDF5;
+    --light: #f1f08a;
     --dark: #0E2E50;
 }
 
@@ -247,7 +247,8 @@
 }
 
 .cat-item:hover div {
-    background: var(--primary);
+    /*background: var(--primary);*/
+    background: #f8d3419d;
     border-color: transparent;
 }
 
@@ -385,7 +386,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+     
     border-color: var(--light);
 }
 
